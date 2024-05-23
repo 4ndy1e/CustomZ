@@ -1,0 +1,120 @@
+.home-image {
+  width: 100vw;
+  height: auto;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.slogan-text {
+  font-family: Impact, fantasy;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.slogan-handle {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.quick-nav {
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+.quick-nav-button {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 20px 4px;
+  color: white;
+  background-color: black;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.explore-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  margin: 10px 20px;
+}
+
+.waves-background {
+
+  width: 100vw;
+  height: 349px;
+  background-image: url(/Images\ /waves-background-2.png);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  border-bottom: 4px solid white;
+}
+
+.waves-slogan {
+  text-align: center;
+  padding-top: 120px;
+  margin: 0px;
+  font-family: Impact, fantasy;
+  font-size: 80px;
+  color: white;
+}
+
+.latest-release-section {
+
+  background-color: black;
+  height: 100px;
+  padding-left: 30px;
+
+}
+
+.latest-release-text {
+  color: white;
+  font-family: Impact, fantasy;
+  font-size: 40px;
+  padding-top: 60px;
+  padding-top: 24px;
+  margin: 0px;
+
+}
+
+.latest-release-images {
+  width: 20vw;
+  height: auto;
+  padding: 0px;
+  border: 3px solid white;
+}
+
+.latest-release-first {
+  padding: 0px;
+  margin: 20px
+}
+
+.latest-release-second {
+  padding-left: 250px;
+}
+
+.model {
+  width: 40vw;
+  height: auto;
+  padding-left: 0px;
+  border: 3px solid white;
+}
+
+.test-div {
+  background-color: black;
+  width: 100vw;
+  padding-left: 30px;
+  height: 100px;
+}
+
+.waves-image {
+  width: 100vw;
+  height: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}

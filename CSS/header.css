@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    width: fit-content
+}
+
+a {
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.customz {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    margin: 0px;
+    color: black;
+}
+
+.topnav-div {
+    margin: 0px 80px;
+
+}
+
+.topnav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.topnav-selections {
+    padding: 0px 15px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    text-decoration: underline;
+    background-color: lightgray;
+}
+
+.search-container {
+    padding-left: 150px;
+    padding-right: 30px;
+    justify-content: flex-end;
+}
+
+.search-button {
+    background-color: rgb(240, 240, 240);
+    padding: 0px;
+}
+
+.search-icon {
+    width: 40px;
+    height: 40px;
+}
+
+form {
+    border-radius: 30px;
+    padding: 4px 2px;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+    height: 40px;
+    display: flex;
+}
+
+form input {
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+form button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: darkgray;
+}
+
+.favorite-icon {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bag-icon {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.webSection {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.favorite-icon:hover {
+    color: gray;
+}
+
+.bag-icon:hover {
+    color: gray;
+}
+
+.shoesMen {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.shoesWomen {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.clothingMen {
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.clothingWomen {
+    position: relative;
+    top: 250px;
+    text-align: center;
+}

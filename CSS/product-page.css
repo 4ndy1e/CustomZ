@@ -1,0 +1,148 @@
+.parent-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: fit-content;
+  margin-left: 180px;
+
+}
+
+.child-container {}
+
+.images-container {
+  width: fit-content;
+}
+
+.product-image-size {
+  width: 40vw;
+  height: 37vw;
+  margin: 7.5px;
+}
+
+.product-mini-image-size {
+  width: 8vw;
+  height: auto;
+  margin: 15px 7.5px;
+  cursor: pointer;
+}
+
+.product-details-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.product-description-container {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.product-description-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  margin-left: 45px;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  text-align: center;
+}
+
+.product-information-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.product-name {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 38px;
+  margin: 0px;
+}
+
+.product-gender {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.product-price {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.size-text-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.select-size-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  padding-right: 50%;
+}
+
+.size-guide-text {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.product-theme-banner {
+  width: 50%;
+  height: auto;
+}
+
+.product-size-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.product-size-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.size-button {
+  width: 180px;
+  height: auto;
+  padding: 12px 15px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.size-button:hover {
+  border: 1px solid black;
+}
+
+.shop-buttons {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+.add-to-bag {
+  background-color: black;
+  color: white;
+}
+
+.favorite {
+  background-color: white;
+  border: 1px solid lightgray;
+}
