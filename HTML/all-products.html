@@ -1,297 +1,292 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+    <link rel="stylesheet" href="/CSS/header.css" />
+    <link rel="stylesheet" href="/CSS/all-products.css" />
+    <link rel="stylesheet" href="/CSS/flash-sale.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<head>
-  <title> Home </title>
-  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-  <link rel="stylesheet" href="/CSS/header.css">
-  <link rel="stylesheet" href="/CSS/all-products.css">
-  <link rel="stylesheet" href="/CSS/flash-sale.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+    <header>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div class="header-flex">
+          <div>
+            <a href="../index.html">
+              <p class="customz">CustomZ</p>
+            </a>
+          </div>
 
-</head>
+          <div class="topnav-div">
+            <nav class="topnav">
+              <a href="all-products.html" class="button topnav-selections">
+                All Products
+              </a>
+              <a href="men.html" class="button topnav-selections"> Men </a>
+              <a href="women.html" class="button topnav-selections"> Women </a>
+              <a href="kid.html" class="button topnav-selections"> Kids </a>
+              <a href="sizeChart.html" class="button topnav-selections">
+                Size Chart
+              </a>
+            </nav>
+          </div>
+        </div>
+        <div class="header-flex">
+          <div class="search-container">
+            <form>
+              <input type="search" placeholder="Search" />
+              <button class="search-button">
+                <img src="/Images /search-icon.png" class="search-icon" />
+              </button>
+            </form>
+          </div>
 
-<body>
-  <header>
-    <div style="display: flex; flex-direction: row; justify-content: space-between;">
-      <div class="header-flex">
-        <div>
-          <a href="home.html">
-            <p class="customz">
-              CustomZ
-            </p>
+          <div class="favorite-icon">
+            <i class="fa fa-heart" style="font-size: 30px"></i>
+          </div>
+
+          <div class="bag-icon">
+            <i class="fa fa-shopping-bag" style="font-size: 28px"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="divider">
+      <p class="sale-text">⚡ Flash Sale | Save Up to 50% ⚡</p>
+      <p class="no-code-needed">No code needed. Shop Now.</p>
+    </div>
+
+    <p class="all-products-text">All Products</p>
+
+    <p class="refine-results-text">Refine Results</p>
+
+    <div class="flex-container-parent">
+      <div class="refine-results-container inline-block">
+        <p class="refine-results-section">Brand</p>
+
+        <div class="brand-filter">
+          <input type="checkbox" name="converse" value="converse" />
+          <label for="converse" class="filter-options-text"> converse </label>
+          <br />
+        </div>
+
+        <div class="brand-filter">
+          <input type="checkbox" name="nike" value="nike" />
+          <label for="nike" class="filter-options-text"> nike </label> <br />
+        </div>
+
+        <div class="brand-filter">
+          <input type="checkbox" name="vans" value="vans" />
+          <label for="vans" class="filter-options-text"> vans </label> <br />
+        </div>
+
+        <p class="refine-results-section">Gender</p>
+        <div class="brand-filter">
+          <input type="checkbox" name="men" value="men" />
+          <label for="men" class="filter-options-text"> men </label>
+        </div>
+        <div class="brand-filter">
+          <input type="checkbox" name="women" value="women" />
+          <label for="women" class="filter-options-text"> women </label>
+        </div>
+        <p class="refine-results-section">Special</p>
+        <div class="brand-filter">
+          <input type="checkbox" name="sale" value="sale" />
+          <label for="sale" class="filter-options-text"> sale </label>
+        </div>
+
+        <div class="brand-filter" style="padding-bottom: 20px">
+          <input type="checkbox" name="new" value="new" />
+          <label for="new" class="filter-options-text"> new </label>
+        </div>
+      </div>
+      <!--------------------------------------------->
+      <div class="flex-container-products flex-container-parent">
+        <div class="product-card">
+          <a href="zoro.html">
+            <img src="/Images /zoro-1.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Men's - Zoro</p>
+              <p class="product-price">$150.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="naruto.html">
+            <img src="/Images /Naruto-1.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Men's - Naruto</p>
+              <p class="product-price">$150.00</p>
+            </div>
           </a>
         </div>
 
-        <div class="topnav-div">
-          <nav class="topnav">
-            <a href="all-products.html" class="button topnav-selections"> All Products </a>
-            <a href="men.html" class="button topnav-selections"> Men </a>
-            <a href="women.html" class="button topnav-selections"> Women </a>
-            <a href="kid.html" class="button topnav-selections"> Kids </a>
-            <a href="sizeChart.html" class="button topnav-selections"> Size Chart </a>
-          </nav>
+        <div class="product-card">
+          <a href="dragonBallZ.html">
+            <img src="/Images /Dragonball-1.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Men's - Dragon Ball Z</p>
+              <p class="product-price">$150.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="looneyTunes.html">
+            <img src="/Images /Looneytunes-1.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Men's - Looney Tunes</p>
+              <p class="product-price">$150.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /Inuyasha-1.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Women's - Inuyasha</p>
+              <p class="product-price">$150.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /blue-butterfly-1.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Women's - Blue Butterfly</p>
+              <p class="product-price">$150.00</p>
+            </div>
+          </a>
         </div>
 
+        <div class="product-card">
+          <a href="home.html">
+            <img
+              src="/Images /Nike Kids - Sour patch kids.png"
+              class="card-image"
+            />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Kid's - Sour Patch Kids</p>
+              <p class="product-price">$100.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /Nike Kids - Spiderman.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Nike Air Force 1</p>
+              <p class="product-description">Kid's - Spiderman</p>
+              <p class="product-price">$100.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /converse-blue.jpeg" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Converse High Top</p>
+              <p class="product-description">Men's - Blue</p>
+              <p class="product-price">$100.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /converse-flowers-white.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Converse High Top</p>
+              <p class="product-description">Women's - Floral</p>
+              <p class="product-price">$100.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /converse-pink.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Converse Chuck Taylor</p>
+              <p class="product-description">Women's - Garden</p>
+              <p class="product-price">$100.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img
+              src="/Images /converse-rick-and-morty.png"
+              class="card-image"
+            />
+            <div class="product-card-content">
+              <p class="product-name">Converse Chuck Taylor</p>
+              <p class="product-description">Men's - Rick & Morty</p>
+              <p class="product-price">$100.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /vnas-sunflowers.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Vans Old Skool</p>
+              <p class="product-description">Women's - Sunflower</p>
+              <p class="product-price">$120.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /vans-cartoon.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Vans Old Skool</p>
+              <p class="product-description">Men's - Cartoon</p>
+              <p class="product-price">$120.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /vans-simpsons.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Vans Old Skool</p>
+              <p class="product-description">Kid's - Simpsons</p>
+              <p class="product-price">$75.00</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-card">
+          <a href="home.html">
+            <img src="/Images /Vans Kids - Spongebob.png" class="card-image" />
+            <div class="product-card-content">
+              <p class="product-name">Vans Old Skool</p>
+              <p class="product-description">Kid's - Spongebob</p>
+              <p class="product-price">$75.00</p>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="header-flex">
-        <div class="search-container">
-          <form>
-            <input type="search" placeholder="Search">
-            <button class="search-button">
-              <img src="/Images /search-icon.png" class="search-icon">
-            </button>
-          </form>
-        </div>
-
-        <div class="favorite-icon">
-          <i class="fa fa-heart" style="font-size:30px;"></i>
-        </div>
-
-        <div class="bag-icon">
-          <i class="fa fa-shopping-bag" style="font-size:28px; "></i>
-        </div>
-      </div>
-
     </div>
-
-  </header>
-
-  <div class="divider">
-    <p class="sale-text"> ⚡ Flash Sale | Save Up to 50% ⚡ </p>
-    <p class="no-code-needed"> No code needed. Shop Now.</p>
-  </div>
-
-  <p class="all-products-text"> All Products </p>
-
-  <p class="refine-results-text "> Refine Results </p>
-
-  <div class="flex-container-parent">
-
-    <div class="refine-results-container inline-block">
-      <p class="refine-results-section"> Brand </p>
-
-      <div class="brand-filter">
-        <input type="checkbox" name="converse" value="converse">
-        <label for="converse" class="filter-options-text"> converse </label> <br>
-      </div>
-
-      <div class="brand-filter">
-        <input type="checkbox" name="nike" value="nike">
-        <label for="nike" class="filter-options-text"> nike </label> <br>
-      </div>
-
-      <div class="brand-filter">
-        <input type="checkbox" name="vans" value="vans">
-        <label for="vans" class="filter-options-text"> vans </label> <br>
-      </div>
-
-      <p class="refine-results-section"> Gender </p>
-      <div class="brand-filter">
-        <input type="checkbox" name="men" value="men">
-        <label for="men" class="filter-options-text"> men </label>
-      </div>
-      <div class="brand-filter">
-        <input type="checkbox" name="women" value="women">
-        <label for="women" class="filter-options-text"> women </label>
-      </div>
-      <p class="refine-results-section"> Special </p>
-      <div class="brand-filter">
-        <input type="checkbox" name="sale" value="sale">
-        <label for="sale" class="filter-options-text"> sale </label>
-      </div>
-
-      <div class="brand-filter" style="padding-bottom: 20px">
-        <input type="checkbox" name="new" value="new">
-        <label for="new" class="filter-options-text"> new </label>
-      </div>
-    </div>
-    <!--------------------------------------------->
-    <div class="flex-container-products flex-container-parent">
-
-      <div class="product-card">
-        <a href="zoro.html">
-          <img src="/Images /zoro-1.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Men's - Zoro </p>
-            <p class="product-price"> $150.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="naruto.html">
-          <img src="/Images /Naruto-1.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Men's - Naruto </p>
-            <p class="product-price"> $150.00 </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="product-card">
-        <a href="dragonBallZ.html">
-          <img src="/Images /Dragonball-1.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Men's - Dragon Ball Z </p>
-            <p class="product-price"> $150.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="looneyTunes.html">
-          <img src="/Images /Looneytunes-1.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Men's - Looney Tunes </p>
-            <p class="product-price"> $150.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /Inuyasha-1.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Women's - Inuyasha </p>
-            <p class="product-price"> $150.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /blue-butterfly-1.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Women's - Blue Butterfly </p>
-            <p class="product-price"> $150.00 </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /Nike Kids - Sour patch kids.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Kid's - Sour Patch Kids </p>
-            <p class="product-price"> $100.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /Nike Kids - Spiderman.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Nike Air Force 1 </p>
-            <p class="product-description"> Kid's - Spiderman </p>
-            <p class="product-price"> $100.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /converse-blue.jpeg" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Converse High Top</p>
-            <p class="product-description"> Men's - Blue </p>
-            <p class="product-price"> $100.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /converse-flowers-white.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Converse High Top </p>
-            <p class="product-description"> Women's - Floral </p>
-            <p class="product-price"> $100.00 </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /converse-pink.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Converse Chuck Taylor </p>
-            <p class="product-description"> Women's - Garden </p>
-            <p class="product-price"> $100.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /converse-rick-and-morty.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Converse Chuck Taylor </p>
-            <p class="product-description"> Men's - Rick & Morty </p>
-            <p class="product-price"> $100.00 </p>
-          </div>
-        </a>
-      </div>
-
-
-
-
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /vnas-sunflowers.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Vans Old Skool </p>
-            <p class="product-description"> Women's - Sunflower </p>
-            <p class="product-price"> $120.00 </p>
-          </div>
-        </a>
-      </div>
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /vans-cartoon.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Vans Old Skool </p>
-            <p class="product-description"> Men's - Cartoon </p>
-            <p class="product-price"> $120.00 </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /vans-simpsons.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Vans Old Skool </p>
-            <p class="product-description"> Kid's - Simpsons </p>
-            <p class="product-price"> $75.00 </p>
-          </div>
-        </a>
-      </div>
-
-      <div class="product-card">
-        <a href="home.html">
-          <img src="/Images /Vans Kids - Spongebob.png" class="card-image">
-          <div class="product-card-content">
-            <p class="product-name"> Vans Old Skool </p>
-            <p class="product-description"> Kid's - Spongebob </p>
-            <p class="product-price"> $75.00 </p>
-          </div>
-        </a>
-      </div>
-
-
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
