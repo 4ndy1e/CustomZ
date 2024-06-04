@@ -15,7 +15,7 @@
 }
 
 .slogan-handle {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 25px;
   margin: 0px;
 }
@@ -37,16 +37,15 @@
 }
 
 .explore-text {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 40px;
   margin: 10px 20px;
 }
 
 .waves-background {
-
   width: 100vw;
   height: 349px;
-  background-image: url(/Images\ /waves-background-2.png);
+  background-image: url(Images\ /waves-background-2.png);
   background-repeat: no-repeat;
   background-size: 100vw auto;
   border-bottom: 4px solid white;
@@ -62,11 +61,9 @@
 }
 
 .latest-release-section {
-
   background-color: black;
   height: 100px;
   padding-left: 30px;
-
 }
 
 .latest-release-text {
@@ -76,7 +73,6 @@
   padding-top: 60px;
   padding-top: 24px;
   margin: 0px;
-
 }
 
 .latest-release-images {
@@ -88,7 +84,7 @@
 
 .latest-release-first {
   padding: 0px;
-  margin: 20px
+  margin: 20px;
 }
 
 .latest-release-second {
