@@ -45,7 +45,7 @@
 .waves-background {
   width: 100vw;
   height: 349px;
-  background-image: url(Images\ /waves-background-2.png);
+  background-image: url("../Images /waves-background-2.png");
   background-repeat: no-repeat;
   background-size: 100vw auto;
   border-bottom: 4px solid white;
