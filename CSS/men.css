@@ -1,7 +1,5 @@
-
-
 .mens-text {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 35px;
   padding-left: 40px;
 }
@@ -11,7 +9,7 @@
   flex-wrap: wrap;
   /* border: 1px solid black; */
   width: 91vw;
-  height: auto;
+  height: 100vh;
   margin-left: 80px;
 }
 
@@ -19,7 +17,7 @@
   display: flex;
   flex-direction: column;
   width: auto;
-  height: auto;
+  height: fit-content;
   margin-bottom: 30px;
   margin-right: 30px;
   margin-top: 0px;
@@ -43,11 +41,10 @@
 
 .product-card-content {
   padding: 16px;
-
 }
 
-.product-name { 
-  font-family: 'Trebuchet MS', sans-serif;
+.product-name {
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 20px;
   margin: 0px;
   text-decoration: none;
@@ -61,16 +58,8 @@
   margin-bottom: 40px;
 }
 
-.product-price { 
-  font-family: 'Trebuchet MS', sans-serif;
+.product-price {
+  font-family: "Trebuchet MS", sans-serif;
   font-size: 16px;
   color: black;
 }
-
-
-
-
-
-
-
-
